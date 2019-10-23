@@ -1,0 +1,33 @@
+li{
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    transition: margin-top 400ms;
+}
+
+li:hover{
+    background-color:lightgray;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.cardImg{
+    flex-grow: 1;
+    width: 200px;
+    max-height: 220px;
+    align-self: center;
+}
+
+h5{
+    flex-grow: 1;
+}
+h2{
+    flex-grow: 1;
+}
